@@ -361,8 +361,3 @@ Based on the prework analysis, the following properties validate the system's co
 **Property 8: Language Simplification**
 *For any* generated response, the Empathy Agent should avoid medical jargon and use language appropriate for the use
 
-Now I need to analyze the acceptance criteria to determine which ones can be tested as properties. Let me use the prework tool:
-
-<function_calls>
-<invoke name="prework">
-<parameter name="featureName">sarthi-ai
