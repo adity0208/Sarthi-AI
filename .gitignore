@@ -1,0 +1,173 @@
+# Sarthi-AI Project .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# FastAPI / Uvicorn
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Node.js / React Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# React build outputs
+/build
+/dist
+.parcel-cache
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# AWS
+.aws/
+aws-exports.js
+amplify/
+.amplifyrc
+
+# AWS SAM
+.aws-sam/
+samconfig.toml
+
+# Terraform (if used for infrastructure)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Audio files (for testing)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+test-audio/
+audio-samples/
+
+# Medical data (HIPAA compliance)
+patient-data/
+medical-records/
+test-recordings/
+phi-data/
+
+# Configuration files with secrets
+config/secrets.json
+config/production.json
+.env.production
+secrets.yaml
+credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+coverage/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local development
+local/
+dev-data/
+mock-data/
+
+# Kiro specific (keep spec files but ignore temp data)
+.kiro/temp/
+.kiro/cache/
